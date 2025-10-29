@@ -1,3 +1,28 @@
-I LOVE GLAZING RUDY BECAUSE HE ROCKS! :)
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sorting Demo</title>
+</head>
+<body>
+  <h1>Sorting Algorithm Demo</h1>
 
-This is a test message. 
+  <label>Enter numbers (comma separated):</label>
+  <input type="text" id="numbers" placeholder="e.g., 5,2,9,1">
+  <br><br>
+
+  <label>Sort order:</label>
+  <select id="order">
+    <option value="ascending">Ascending</option>
+    <option value="descending">Descending</option>
+  </select>
+  <br><br>
+
+  <button onclick="runSort()">Sort</button>
+
+  <h3>Sorted result:</h3>
+  <p id="result"></p>
+
+  <!-- Link your JavaScript file -->
+  <script src="sort.js"></script>
+</body>
+</html>
